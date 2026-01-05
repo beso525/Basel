@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title id="nav-title">Project Details</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="components/header.js" defer></script>
+    <script src="components/footer.js" defer></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main id="project-detail">
+      <section class="project-landing">
+        <div class="landing-text">
+          <h1 id="project-title"></h1>
+          <p id="project-desc"></p>
+        </div>
+        <div class="project-links">
+          <a id="github-link" target="_blank">GitHub</a>
+          <a id="demo-link" target="_blank">Live Demo</a>
+        </div>
+        <div class="projectImg">
+          <img src="" alt="" id="project-image" />
+        </div>
+      </section>
+
+      <section class="key-features">
+        <h2>Key Features</h2>
+        <ol id="project-features"></ol>
+      </section>
+
+      <section class="chal-sol">
+        <h2>Challenges</h2>
+        <p id="project-challenges"></p>
+      </section>
+      <section class="tech-stack">
+        <h2>Tech Stack</h2>
+        <p id="project-tech"></p>
+      </section>
+    </main>
+    <footer-component></footer-component>
+
+    <script src="js/project.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>

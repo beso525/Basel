@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basel Elkhalifa</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main>
+      <!-- landing page with call to action -->
+      <section class="home" id="home">
+        <h1>
+          Hi! I'm Basel. <br />
+          Web Developer
+        </h1>
+        <p>
+          I build clean, functional web applications with HTML, CSS, and
+          JavaScript. I focus on usability, clear structure and maintainable
+          code.
+        </p>
+        <div class="btn-wrapper">
+          <a href="#projects" class="calltoact">Projects</a>
+          <a href="#contact" class="calltoact">Contact</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2>About</h2>
+        <div class="about-container">
+          <div class="about-entry">
+            <p>
+              I'm a recent graduate with a Bachelor’s degree in Computer Science
+              and Business Administration from Saint Mary’s University.
+            </p>
+            <p>
+              I enjoy building clean, functional web applications and
+              understanding how different parts of an application work together.
+              From UI to client-side.
+            </p>
+            <p>
+              I'm currently focused on strengthening my frontend fundamentals
+              while expanding into full-stack development, with the goal of
+              contributing to real-world products.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="images/pic.jpg" alt="" class="headshot" />
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div id="project-container" class="project-container"></div>
+      </section>
+
+      <!-- skills section -->
+      <section class="skills-section" id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skill">
+            <h3>Frontend</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="images/svgs/html-5-svgrepo-com.svg" alt="" />
+                <p>HTML</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/css-3-svgrepo-com.svg" alt="" />
+                <p>CSS</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/javascript-svgrepo-com.svg" alt="" />
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>Backend</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="images/svgs/python-svgrepo-com.svg" alt="" />
+                <p>Python</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/java-svgrepo-com.svg" alt="" />
+                <p>Java</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/node-js-svgrepo-com.svg" alt="" />
+                <p>Node.js</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>Tools</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="images/svgs/git-svgrepo-com.svg" alt="" />
+                <p>Git</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/github-142-svgrepo-com.svg" alt="" />
+                <p>GitHub</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/vscode-svgrepo-com.svg" alt="" />
+                <p>VS Code</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>Frameworks</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="images/svgs/angular-svgrepo-com.svg" alt="" />
+                <p>Angular</p>
+              </div>
+              <div class="skill-card">
+                <img src="images/svgs/react-svgrepo-com.svg" alt="" />
+                <p>React</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- education section -->
+      <section class="education" id="education">
+        <h2>Education</h2>
+
+        <div class="edu-entry">
+          <div class="edu-logo">
+            <img src="images/smu-logo.png" alt="" />
+          </div>
+          <div class="edu-details">
+            <h3>
+              Bachelor of Science in Computer Science and Business
+              Administration
+            </h3>
+            <p class="school">Saint Mary's University, Halifax, NS</p>
+            <img src="" alt="" class="school-logo" />
+
+            <h4>Relevant coursework</h4>
+            <ul>
+              <li>Advanced Web Programming</li>
+              <li>Data Structures and Algorithms</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer-component></footer-component>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>

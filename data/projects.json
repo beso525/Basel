@@ -1,0 +1,61 @@
+[
+  {
+    "id": "weather-app",
+    "title": "Horizon",
+    "pic": "images/svgs/angular-svgrepo-com.svg",
+    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
+    "description": "A weather app that uses OpenWeather API to fetch temps daily, hourly, and weekly. ",
+    "features": [ 
+      "City-based weather search that shows daily, hourly, and weekly forecasts",
+      "API data handling and error states",
+      "Responsive layout",
+      "Dynamic toggle states between metric and imperial"
+    ],
+    "tech": [
+      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
+      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg" }
+    ],
+    "challenges": 
+      "Handling asynchronous API calls and managing application state in Angular.",
+    "github": "https://github.com/...",
+    "live": "https://..."
+  },
+  {
+    "id": "restaurant-app",
+    "title": "Restaurant App",
+    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
+    "description": "",
+    "features": [
+      "City-based weather search",
+      "API data handling and error states",
+      "Responsive layout"
+    ],
+    "tech": [
+      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
+      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg"}
+    ],
+    "challenges": "Handling asynchronous API calls and managing application state in Angular.",
+    "github": "https://github.com/...",
+    "live": "https://..."
+  },
+  {
+    "id": "tadas",
+    "title": "Tadas",
+    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
+    "description": "",
+    "features": [
+      "City-based weather search", 
+      "API data handling and error states", 
+      "Responsive layout"
+    ],
+    "tech": [
+      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
+      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg" },
+      { "name": "Java", "icon": "images/svgs/java-svgrepo-com.svg"}
+    ],
+    "challenges":
+      "Handling asynchronous API calls and managing application state in Angular.",
+    "github": "https://github.com/...",
+    "live": "https://..."
+  }
+]
