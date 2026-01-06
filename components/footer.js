@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
     this.innerHTML = `
     <footer>
       <p>© 2025 Basel Elkhalifa</p>
-      <div class="footer-links">
+      <div class="footer-links" id="contact">
         <a href="mailto:basel.alkhalifa@hotmail.com">
           <i class="fa-solid fa-envelope"></i>
         </a>
