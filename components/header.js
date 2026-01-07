@@ -5,6 +5,7 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+      <a class="top-btn" href="#header">↑</a>
     <header id="header">
       <h1><a href="/Basel" class="dest">Basel Elkhalifa</a></h1>
       <nav>
