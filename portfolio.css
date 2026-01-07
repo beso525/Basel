@@ -1,5 +1,6 @@
 /* top level css */
 :root {
+  color-scheme: light dark;
   --bg :#19171D;
   --text: #fff8f0;
   --accent: #3636365b;
@@ -8,7 +9,7 @@
 [data-theme = "light"] {
   --bg: #e2e2e2;
   --text: #222433;
-  --accent: #d3d3d3;
+  --accent: #ffffff;
 }
 
 * {
@@ -31,6 +32,10 @@ h1 {
 h2, h3 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bolder;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
@@ -106,8 +111,8 @@ li:hover {
 }
 
 .dest:hover {
-  color: var(--accent);
-  transform: scale(1.05);
+  opacity: 0.7;;
+  transform: scale(1.1);
 }
 
 /* home css */
@@ -134,7 +139,8 @@ li:hover {
   border-radius: 3em;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.1em;
+  font-weight: 600;
   padding: 0.7em 4em;
   width: auto;
   background-color: var(--text);
@@ -143,6 +149,24 @@ li:hover {
 
 .calltoact:hover {
   background-color: #777;
+}
+
+.top-btn {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  font-size: large;
+  background-color: var(--text);
+  color: var(--bg);
+  padding: 1.3rem 1.7rem;
+}
+
+.top-btn:hover {
+  transition: background-color 1s;
+  opacity: 0.7;
 }
 
 /* Section spacing */
@@ -196,7 +220,7 @@ section h2 {
   align-items: center;
   text-align: center;
   gap: 10px;
-  background: var(--bg);
+  background: var(--accent);
   color: var(--text);
   padding: 24px;
   border-radius: 2rem;
@@ -238,7 +262,7 @@ section h2 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg);
+  background-color: var(--accent);
   gap: 5px;
   padding: 1.5rem;
   border-radius: 2rem;
