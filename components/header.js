@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <header id="header">
-      <h1><a href="#header" class="dest">Basel Elkhalifa</a></h1>
+      <h1><a href="/Basel" class="dest">Basel Elkhalifa</a></h1>
       <nav>
       <button class="menu-toggle" aria-label="Open Menu">☰</button> 
         <ul class="menu-links">
