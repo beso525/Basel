@@ -1,5 +1,16 @@
 // js to create a darkmode/light mode toggle button
 document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const menuLinks = document.querySelector(".menu-links");
+
+  menuToggle.addEventListener("click", () => {
+    menuLinks.classList.toggle("active");
+
+    const isExpanded =
+      menuToggle.getAttribute("aria-expanded") === "true" || false;
+    menuToggle.setAttribute("aria-expanded", !isExpanded);
+  });
+
   const toggle = document.getElementById("moon");
   const root = document.documentElement;
 
@@ -41,18 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
           )
           .join("")}
       </div>
-        <div>
-          ${
-            project.github
-              ? `<a href="${project.github}" target="_blank">GitHub</a>`
-              : ""
-          }
-          ${
-            project.live
-              ? `<a href="${project.live}" target="_blank">Live Demo</a>`
-              : ""
-          }
-        </div>
     `;
 
         card.addEventListener("click", (e) => {

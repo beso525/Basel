@@ -8,7 +8,8 @@ class Header extends HTMLElement {
     <header>
       <h1>Basel Elkhalifa</a></h1>
       <nav>
-        <ul>
+      <button class="menu-toggle" aria-label="Open Menu">☰</button> 
+        <ul class="menu-links">
           <li><a href="/Basel/#about" class="dest">About</a></li>
           <li><a href="/Basel/#projects" class="dest">Projects</a></li>
           <li><a href="/Basel/#skills" class="dest">Skills</a></li>

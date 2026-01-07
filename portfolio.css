@@ -2,13 +2,13 @@
 :root {
   --bg :#19171D;
   --text: #fff8f0;
-  --accent: #646b77;
+  --accent: #3636365b;
 }
 
 [data-theme = "light"] {
   --bg: #e2e2e2;
   --text: #222433;
-  --accent: #8D99AE;
+  --accent: #d3d3d3;
 }
 
 * {
@@ -21,8 +21,9 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Noto sans', sans-serif;
+  overflow-x : hidden;
 }
-
+ 
 h1 {
   font-family: 'Bungee', sans-serif;
 }
@@ -47,15 +48,16 @@ main,
 footer {
   max-width: 100%;
   margin: 0 auto;
-  width: 85vw;
+  width: 55vw;
 }
 
 header {
+  width: 85vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--text);
 }
 
 main {
@@ -71,16 +73,28 @@ nav {
 
 ul {
   font-size: 16px;
-  
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 li, a {
-  display: inline-block;
-  padding-right: 15px;
+  display: block;
   text-decoration: none;
+  padding-right: 0.7rem;
 }
 
 li:hover {
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
@@ -110,7 +124,8 @@ li:hover {
 }
 
 .btn-wrapper {
-  display: block;
+  display: flex;
+  gap: 3rem;
   text-align: center;
 }
 
@@ -120,7 +135,7 @@ li:hover {
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   display: inline-block;
   font-size: 1em;
-  padding: 1em 2em;
+  padding: 0.7em 4em;
   width: auto;
   background-color: var(--text);
   color: var(--bg) !important;
@@ -136,7 +151,15 @@ section {
 }
 
 section > * {
-  padding-top: 10px;
+  padding-top: 20px;
+}
+
+section h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Noto Sans";
 }
 
 /* About section */
@@ -162,21 +185,22 @@ section > * {
 /* Project section */
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 2em;
 }
-
+/* Frame 141 */
 .project-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 10px;
   background: var(--bg);
   color: var(--text);
   padding: 24px;
-  border-radius: 16px;
-  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.15);
 }
 
 .project-card:hover {
@@ -197,9 +221,9 @@ section > * {
 /* skills section */
 .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr;
   padding: 2em;
-  gap: 3rem;
+  gap: 1rem;
   margin-top: 1.5rem;
   width: 100%;
 }
@@ -214,8 +238,11 @@ section > * {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  background-color: var(--bg);
   gap: 5px;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.15);
 }
 
 .skill > h3 {
@@ -226,10 +253,7 @@ section > * {
 .skill-card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.7;
+  gap: 1rem;
 }
 
 .skill-tech {
@@ -255,15 +279,21 @@ section > * {
 
 .edu-entry {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 3rem;
   padding: 1.5rem;
   border-radius: 12px;
-  background: rgba(0, 0, 0, 0.03);
+  text-align: center;
 }
 
 .edu-logo img {
+  background-color: var(--accent);
+  padding: 1.5rem;
+  border-radius: 2rem;
   width: 200px;
+  margin: 1rem;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.15);
 }
 
 .edu-details h3 {
@@ -273,7 +303,26 @@ section > * {
 .edu-details .school {
   font-style: italic;
   opacity: 0.8;
-  margin-bottom: 0.5rem;
+  margin: 1rem;
+}
+
+.school {
+  margin-bottom: 1rem;
+}
+
+.coursework{
+  flex-direction: column;
+}
+
+.coursework-header {
+  padding-bottom: 2rem;
+}
+
+.coursework li {
+  color: var(--text);
+  opacity: 0.5;
+  cursor:text;
+  line-height: 1.3rem;
 }
 
 /* contact section */
@@ -285,7 +334,7 @@ section > * {
 
 /* footer */
 footer {
-  border-top: 1px solid var(--bg);
+  border-top: 1px solid var(--text);
   padding: 20px 0px;
   font-weight: 600;
   display: flex;
@@ -402,4 +451,84 @@ footer {
 
 .project-links a:hover {
   opacity: 0.75;
+}
+
+.footer-links {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  header, main, footer {
+    width: 95vw;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  li, a {
+    padding-right: 0;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headshot {
+    width: 120px;
+  }
+
+  .project-landing {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  #project-image {
+    max-width: 100%;
+  }
+
+  .landing-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-links {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-links.active {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  header, main, footer {
+    width: 80vw;
+  }
+  
+  section h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .edu-entry {
+    flex-direction: column;
+  }
 }
