@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <a class="top-btn" href="#header">↑</a>
     <header id="header">
-      <h1><a href="/Basel" class="dest">Basel Elkhalifa</a></h1>
+      <h1><a href="/" class="dest">Basel Elkhalifa</a></h1>
       <nav>
       <button class="menu-toggle" aria-label="Open Menu">☰</button> 
         <ul class="menu-links">
