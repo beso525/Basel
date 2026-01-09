@@ -11,10 +11,10 @@ class Header extends HTMLElement {
       <nav>
       <button class="menu-toggle" aria-label="Open Menu">☰</button> 
         <ul class="menu-links">
-          <li><a href="/Basel/#about" class="dest">About</a></li>
-          <li><a href="/Basel/#projects" class="dest">Projects</a></li>
-          <li><a href="/Basel/#skills" class="dest">Skills</a></li>
-          <li><a href="/Basel/#contact" class="dest">Contact</a></li>
+          <li><a href="#about" class="dest">About</a></li>
+          <li><a href="#projects" class="dest">Projects</a></li>
+          <li><a href="#skills" class="dest">Skills</a></li>
+          <li><a href="#contact" class="dest">Contact</a></li>
           <li>
             <i class="fa-solid fa-moon dest" id="moon"></i>
           </li>
