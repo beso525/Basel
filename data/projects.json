@@ -2,7 +2,7 @@
   {
     "id": "weather-app",
     "title": "Horizon",
-    "pic": "images/svgs/angular-svgrepo-com.svg",
+    "pic": "images/proj-images/horizon-weather.png",
     "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
     "description": "A weather app that uses OpenWeather API to fetch temps daily, hourly, and weekly. ",
     "features": [ 
