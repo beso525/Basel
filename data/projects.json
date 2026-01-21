@@ -17,12 +17,12 @@
     ],
     "challenges": 
       "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/...",
-    "live": "https://..."
+    "github": "https://github.com/beso525/HorizonAngular",
+    "live": "https://horizon-weatherapp.netlify.app/"
   },
   {
     "id": "restaurant-app",
-    "title": "Restaurant App",
+    "title": "Basel's Bakery",
     "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
     "description": "",
     "features": [
@@ -35,27 +35,7 @@
       { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg"}
     ],
     "challenges": "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/...",
-    "live": "https://..."
-  },
-  {
-    "id": "tadas",
-    "title": "Tadas",
-    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
-    "description": "",
-    "features": [
-      "City-based weather search", 
-      "API data handling and error states", 
-      "Responsive layout"
-    ],
-    "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg" },
-      { "name": "Java", "icon": "images/svgs/java-svgrepo-com.svg"}
-    ],
-    "challenges":
-      "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/...",
+    "github": "https://github.com/beso525/Basels-Bakery",
     "live": "https://..."
   }
 ]
