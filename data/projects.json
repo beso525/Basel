@@ -12,8 +12,8 @@
       "Dynamic toggle states between metric and imperial"
     ],
     "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg" }
+      { "name": "Angular", "icon": "images/svgs/angular.svg" },
+      { "name": "TypeScript", "icon": "images/svgs/typescript.svg" }
     ],
     "challenges": 
       "Handling asynchronous API calls and managing application state in Angular.",
@@ -23,16 +23,15 @@
   {
     "id": "restaurant-app",
     "title": "Basel's Bakery",
-    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
+    "overview": "A full-stack e-commerce bakery website built using JS modules, Node.js, and MySQL.",
     "description": "",
     "features": [
-      "City-based weather search",
-      "API data handling and error states",
-      "Responsive layout"
+      "Building out the features"
     ],
     "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg"}
+      { "name": "HTML", "icon": "images/svgs/html5.svg" },
+      { "name": "CSS", "icon": "images/svgs/css3.svg" },
+      { "name": "Javascript", "icon": "images/svgs/javascript.svg" }
     ],
     "challenges": "Handling asynchronous API calls and managing application state in Angular.",
     "github": "https://github.com/beso525/Basels-Bakery",
