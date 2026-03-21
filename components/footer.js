@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer id="contact">
-      <p>© 2025 Basel Elkhalifa, Halifax, CA</p>
+      <p>© 2026 Basel Elkhalifa</p>
       <div class="footer-links" >
         <a href="mailto:basel.alkhalifa@hotmail.com">
           <i class="fa-solid fa-envelope"></i>

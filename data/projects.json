@@ -21,7 +21,9 @@
         "icon": "images/svgs/typescript.svg"
       }
     ],
-    "challenges": "Handling asynchronous API calls and managing application state in Angular.",
+    "challenges": [
+      "Handling asynchronous API calls and managing application state in Angular."
+    ],
     "github": "https://github.com/beso525/HorizonAngular",
     "live": "https://horizon-weatherapp.netlify.app/"
   },
@@ -57,8 +59,7 @@
       }
     ],
     "challenges": [
-      "Creating a test playground for simulated payments using Paypal.",
-      ""
+      "Creating a test playground for simulated payments using Paypal."
     ],
     "github": "https://github.com/beso525/Basels-Bakery",
     "live": "https://whiskbasel.netlify.app/auth/register"
@@ -66,10 +67,11 @@
   {
     "id": "todo-app",
     "title": "Todos",
-    "overview": "A basic to-do app with a focus on varius CSS design tools.",
+    "pic": "",
+    "overview": "A to-do app with a focus on varius CSS design tools and basic CRUD operations.",
     "description": "",
     "features": [
-      "Building out the features"
+      "Todo app that handles basic CRUD operations"
     ],
     "tech": [
       {
@@ -85,7 +87,9 @@
         "icon": "images/svgs/javascript.svg"
       }
     ],
-    "challenges": "Creating different todo lists for specific projects with different deadlines.",
+    "challenges": [
+      "Creating different todo lists for specific projects with different deadlines."
+    ],
     "github": "https://github.com/beso525/Todoapp",
     "live": "beso525.github.io/Todoapp/"
   }
