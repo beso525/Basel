@@ -5,36 +5,88 @@
     "pic": "images/proj-images/horizon-weather.png",
     "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
     "description": "A weather app that uses OpenWeather API to fetch temps daily, hourly, and weekly. ",
-    "features": [ 
+    "features": [
       "City-based weather search that shows daily, hourly, and weekly forecasts",
       "API data handling and error states",
       "Responsive layout",
       "Dynamic toggle states between metric and imperial"
     ],
     "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript.svg" }
+      {
+        "name": "Angular",
+        "icon": "images/svgs/angular.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "images/svgs/typescript.svg"
+      }
     ],
-    "challenges": 
-      "Handling asynchronous API calls and managing application state in Angular.",
+    "challenges": "Handling asynchronous API calls and managing application state in Angular.",
     "github": "https://github.com/beso525/HorizonAngular",
     "live": "https://horizon-weatherapp.netlify.app/"
   },
   {
-    "id": "restaurant-app",
-    "title": "Basel's Bakery",
-    "overview": "A full-stack e-commerce bakery website built using JS modules, Node.js, and MySQL.",
+    "id": "whisk",
+    "title": "Whisk",
+    "pic": "images/proj-images/whisk-bakery.png",
+    "overview": "A full-stack e-commerce bakery website built with a MERN stack.",
+    "description": "",
+    "features": [
+      "Implemeneted CRUD operations.",
+      "A complex data model that can handle products, shopping carts, and checkout.",
+      "A user view to shop and an admin view to manage products.",
+      "Created a text sandbox payment with Paypal.",
+      "JWT Authentication"
+    ],
+    "tech": [
+      {
+        "name": "React Vite",
+        "icon": "images/svgs/vite.svg"
+      },
+      {
+        "name": "Javascript",
+        "icon": "images/svgs/javascript.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "images/svgs/nodejs.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "images/svgs/mongodb.svg"
+      }
+    ],
+    "challenges": [
+      "Creating a test playground for simulated payments using Paypal.",
+      ""
+    ],
+    "github": "https://github.com/beso525/Basels-Bakery",
+    "live": "https://whiskbasel.netlify.app/auth/register"
+  },
+  {
+    "id": "todo-app",
+    "title": "Todos",
+    "overview": "A basic to-do app with a focus on varius CSS design tools.",
     "description": "",
     "features": [
       "Building out the features"
     ],
     "tech": [
-      { "name": "HTML", "icon": "images/svgs/html5.svg" },
-      { "name": "CSS", "icon": "images/svgs/css3.svg" },
-      { "name": "Javascript", "icon": "images/svgs/javascript.svg" }
+      {
+        "name": "HTML",
+        "icon": "images/svgs/html5.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "images/svgs/css3.svg"
+      },
+      {
+        "name": "Javascript",
+        "icon": "images/svgs/javascript.svg"
+      }
     ],
-    "challenges": "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/beso525/Basels-Bakery",
-    "live": "https://..."
+    "challenges": "Creating different todo lists for specific projects with different deadlines.",
+    "github": "https://github.com/beso525/Todoapp",
+    "live": "beso525.github.io/Todoapp/"
   }
 ]
