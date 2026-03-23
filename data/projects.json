@@ -68,7 +68,7 @@
     "id": "todo-app",
     "title": "Todos",
     "pic": "",
-    "overview": "A to-do app with a focus on varius CSS design tools and basic CRUD operations.",
+    "overview": "A to-do app with a focus on varius CSS design tools and CRUD operations.",
     "description": "",
     "features": [
       "Todo app that handles basic CRUD operations"

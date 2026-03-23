@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         card.innerHTML = `
         <h3 class="title">${project.title}</h3>
+        <img src="${project.pic}" alt="${project.title}" style="width:100%; object-fit:cover; border-radius: inherit;"/>
         <p class="description">${project.overview}</p>
         <div class="skill-tech">
         ${project.tech
