@@ -31,7 +31,7 @@
     "id": "whisk",
     "title": "Whisk",
     "pic": "images/proj-images/whisk-bakery.png",
-    "overview": "A full-stack e-commerce bakery website built with a MERN stack.",
+    "overview": "A full-stack e-commerce bakery website built with a MERN stack. (Please allow a few seconds for the server to load)",
     "description": "",
     "features": [
       "Implemeneted CRUD operations.",
