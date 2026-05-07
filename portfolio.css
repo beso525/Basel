@@ -254,6 +254,7 @@ section h2 {
 .skills-container {
   display: flex;
   justify-content: space-evenly;
+  gap: 1rem;
   padding-top: 10px;
 }
 
@@ -480,6 +481,16 @@ footer {
 
 .footer-links {
   display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .skill-card {
+    flex-direction: row;
+  }
 }
 
 @media only screen and (max-width: 600px) {
