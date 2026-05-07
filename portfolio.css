@@ -211,7 +211,7 @@ section h2 {
 /* Project section */
 .project-container {
   display: grid;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .project-card {
