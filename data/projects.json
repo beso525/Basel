@@ -1,38 +1,33 @@
 [
   {
-    "id": "weather-app",
-    "title": "Horizon",
-    "pic": "images/proj-images/horizon-weather.png",
-    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
-    "description": "A weather app that uses OpenWeather API to fetch temps daily, hourly, and weekly. ",
+    "id": "lms-cli",
+    "title": "Library Management System",
+    "pic": "",
+    "overview": "A CLI Library Management System built with Java.",
+    "description": "A pure Java backend app emphasizing OOP principles, encapsulation, and Java Collections to handle CRUD database logic.",
     "features": [
-      "City-based weather search that shows daily, hourly, and weekly forecasts",
-      "API data handling and error states",
-      "Responsive layout",
-      "Dynamic toggle states between metric and imperial"
+      "CRUD operations for books and borrowers",
+      "Search functionality for books",
+      "Users can borrow books",
+      "CLI application with "
     ],
     "tech": [
       {
-        "name": "Angular",
-        "icon": "images/svgs/angular.svg"
-      },
-      {
-        "name": "TypeScript",
-        "icon": "images/svgs/typescript.svg"
+        "name": "Java",
+        "icon": "images/svgs/java.svg"
       }
     ],
     "challenges": [
-      "Handling asynchronous API calls and managing application state in Angular."
+      "Scaling the application to a database and using the correct DSA for efficient storage."
     ],
-    "github": "https://github.com/beso525/HorizonAngular",
-    "live": "https://horizon-weatherapp.netlify.app/"
+    "github": "https://github.com/beso525/LMS"
   },
   {
     "id": "whisk",
     "title": "Whisk",
     "pic": "images/proj-images/whisk-bakery.png",
-    "overview": "A full-stack e-commerce bakery website built with a MERN stack. (Please allow a few seconds for the server to load)",
-    "description": "",
+    "overview": "A secure full-stack ecommerce engine utilizing JWT authentication systems, persistent MongoDB, and a simulated PayPal checkout.  (Please allow a few seconds for the netlify server to load)",
+    "description": "A secure full-stack ecommerce engine utilizing JWT authentication systems, persistent MongoDB, and a simulated PayPal checkout.  (Please allow a few seconds for the netlify server to load)",
     "features": [
       "Implemeneted CRUD operations.",
       "A complex data model that can handle products, shopping carts, and checkout.",
@@ -65,32 +60,31 @@
     "live": "https://whiskbasel.netlify.app/auth/register"
   },
   {
-    "id": "todo-app",
-    "title": "Todos",
-    "pic": "",
-    "overview": "A to-do app with a focus on varius CSS design tools and CRUD operations.",
-    "description": "",
+    "id": "weather-app",
+    "title": "Horizon",
+    "pic": "images/proj-images/horizon-weather.png",
+    "overview": "An asynchronous TypeScript and Angular engine designed to efficiently parse, structure, and render payload streams from OpenWeather RESTful API.",
+    "description": "An asynchronous TypeScript and Angular engine designed to efficiently parse, structure, and render payload streams from OpenWeather RESTful API.",
     "features": [
-      "Todo app that handles basic CRUD operations"
+      "City-based weather search that shows daily, hourly, and weekly forecasts",
+      "API data handling and error states",
+      "Responsive layout",
+      "Dynamic toggle states between metric and imperial"
     ],
     "tech": [
       {
-        "name": "HTML",
-        "icon": "images/svgs/html5.svg"
+        "name": "Angular",
+        "icon": "images/svgs/angular.svg"
       },
       {
-        "name": "CSS",
-        "icon": "images/svgs/css3.svg"
-      },
-      {
-        "name": "Javascript",
-        "icon": "images/svgs/javascript.svg"
+        "name": "TypeScript",
+        "icon": "images/svgs/typescript.svg"
       }
     ],
     "challenges": [
-      "Creating different todo lists for specific projects with different deadlines."
+      "Handling asynchronous API calls and managing application state in Angular."
     ],
-    "github": "https://github.com/beso525/Todoapp",
-    "live": "beso525.github.io/Todoapp/"
+    "github": "https://github.com/beso525/HorizonAngular",
+    "live": "https://horizon-weatherapp.netlify.app/"
   }
 ]
