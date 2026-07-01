@@ -211,7 +211,8 @@ section h2 {
 /* Project section */
 .project-container {
   display: grid;
-  gap: 2.5rem;
+  gap: 3rem;
+  place-items: center;
 }
 
 .project-card {
@@ -225,6 +226,7 @@ section h2 {
   padding: 24px;
   border-radius: 2rem;
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.15);
+  width: 40vw;
 }
 
 .project-card:hover {
