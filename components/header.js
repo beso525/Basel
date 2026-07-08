@@ -7,7 +7,12 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <a class="top-btn" href="#header">↑</a>
     <header id="header">
-      <h1><a href="/" class="dest">Basel Elkhalifa</a></h1>
+      <h1>
+        <a href="/" class="dest">
+          <img src="images/favicon.png" alt="Logo" style="height: 1.7rem; width: 1.7rem; margin-right: 1rem;">
+          Basel Elkhalifa
+        </a>
+      </h1>
       <nav>
       <button class="menu-toggle" aria-label="Open Menu">☰</button> 
         <ul class="menu-links">
