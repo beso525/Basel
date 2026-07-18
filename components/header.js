@@ -5,16 +5,23 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <header>
-      <h1>Basel Elkhalifa</a></h1>
+      <a class="top-btn" href="#header">↑</a>
+    <header id="header">
+      <h1>
+        <a href="/" class="dest">
+          <img src="images/favicon.png" alt="Logo" style="height: 1.7rem; width: 1.7rem; margin-right: 1rem;">
+          Basel Elkhalifa
+        </a>
+      </h1>
       <nav>
-        <ul>
-          <li><a href="/portfolio.html#about" class="dest">About</a></li>
-          <li><a href="/portfolio.html#projects" class="dest">Projects</a></li>
-          <li><a href="/portfolio.html#skills" class="dest">Skills</a></li>
-          <li><a href="/portfolio.html#contact" class="dest">Contact</a></li>
+      <button class="menu-toggle" aria-label="Open Menu">☰</button> 
+        <ul class="menu-links">
+          <li><a href="#about" class="dest">About</a></li>
+          <li><a href="#projects" class="dest">Projects</a></li>
+          <li><a href="#skills" class="dest">Skills</a></li>
+          <li><a href="#contact" class="dest">Contact</a></li>
           <li>
-            <i class="fa-solid fa-moon" id="moon"></i>
+            <i class="fa-solid fa-moon dest" id="moon"></i>
           </li>
         </ul>
       </nav>

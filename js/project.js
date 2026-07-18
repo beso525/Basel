@@ -36,8 +36,12 @@ function createPage(project) {
     features.appendChild(li);
   });
 
-  document.getElementById("project-challenges").textContent =
-    project.challenges;
+  const challenges = document.getElementById("project-challenges");
+  project.challenges.forEach((c) => {
+    const li = document.createElement('li');
+    li.textContent = c;
+    challenges.appendChild(li);      
+  });
 
   const techContainer = document.getElementById("project-tech");
   project.tech.forEach((t) => {
@@ -53,7 +57,7 @@ function createPage(project) {
 
   const live = document.getElementById("demo-link");
   if (project.live) live.href = project.live;
-  else github.style.display = "none";
+  else live.style.display = "none";
 }
 
 loadProject(projId);

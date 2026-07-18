@@ -1,61 +1,89 @@
 [
   {
+    "id": "lms-cli",
+    "title": "Library Management System",
+    "pic": "images/proj-images/LMS.png",
+    "overview": "A terminal based library management system built with Java.",
+    "description": "A pure Java backend app emphasizing OOP principles, encapsulation, and Java Collections to handle CRUD database logic.",
+    "features": [
+      "Dynamic CRUD operations for books and borrowers data profiles",
+      "Query searching mechanisms to filter find available books",
+      "State tracking logic to manage borrowing and return transactions",
+      "Interactive command line control flow utilizing structured switch navigation modules"
+    ],
+    "tech": [
+      {
+        "name": "Java",
+        "icon": "images/svgs/java.svg"
+      }
+    ],
+    "challenges": [
+      "Designing an in-memory data pipeline using efficient Java Collections structures to maintain runtime data integrity without a relational database."
+    ],
+    "github": "https://github.com/beso525/LMS"
+  },
+  {
+    "id": "whisk",
+    "title": "Whisk",
+    "pic": "images/proj-images/whisk-bakery.png",
+    "overview": "A secure full-stack ecommerce engine utilizing JWT authentication systems, persistent MongoDB, and a simulated PayPal checkout.",
+    "description": "A secure full-stack ecommerce engine utilizing JWT authentication systems, persistent MongoDB, and a simulated PayPal checkout. (Please allow a few seconds for the netlify server to load)",
+    "features": [
+      "Secured application ednpoints via token-based JWT Authentication and states logic",
+      "Architected complex data model that can handle products, shopping carts, and checkout.",
+      "Integrated third-party APIs including Cloudinary for asset management and a simulated PayPal Sandbox processing",
+      "Engineered an administrative dashboard for product handling and adding "
+    ],
+    "tech": [
+      {
+        "name": "React Vite",
+        "icon": "images/svgs/vite.svg"
+      },
+      {
+        "name": "Javascript",
+        "icon": "images/svgs/javascript.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "images/svgs/nodejs.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "images/svgs/mongodb.svg"
+      }
+    ],
+    "challenges": [
+      "Configuring external webhooks and securely managing playground testing for checkout simulations."
+    ],
+    "github": "https://github.com/beso525/Basels-Bakery",
+    "live": "https://whiskbasel.netlify.app/auth/register"
+  },
+  {
     "id": "weather-app",
     "title": "Horizon",
-    "pic": "images/svgs/angular-svgrepo-com.svg",
-    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
-    "description": "A weather app that uses OpenWeather API to fetch temps daily, hourly, and weekly. ",
-    "features": [ 
-      "City-based weather search that shows daily, hourly, and weekly forecasts",
-      "API data handling and error states",
-      "Responsive layout",
-      "Dynamic toggle states between metric and imperial"
-    ],
-    "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg" }
-    ],
-    "challenges": 
-      "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/...",
-    "live": "https://..."
-  },
-  {
-    "id": "restaurant-app",
-    "title": "Restaurant App",
-    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
-    "description": "",
+    "pic": "images/proj-images/horizon-weather.png",
+    "overview": "An asynchronous TypeScript and Angular engine designed to efficiently parse, structure, and render payload streams from OpenWeather RESTful API.",
+    "description": "An asynchronous TypeScript and Angular engine designed to efficiently parse, structure, and render payload streams from OpenWeather RESTful API.",
     "features": [
-      "City-based weather search",
-      "API data handling and error states",
-      "Responsive layout"
+      "Engineered an asynchronous data-parsing logic block consuming OpenWeather API configurations",
+      "Constructed isolated layout components mapping localized daily, hourly, and weekly weather metrics",
+      "Implemented strict fallback UI blocks and catch-block validations to handle API latency drops",
+      "Designed dynamic template state bindings allowing seamless metrics scaling toggles"
     ],
     "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg"}
+      {
+        "name": "Angular",
+        "icon": "images/svgs/angular.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "images/svgs/typescript.svg"
+      }
     ],
-    "challenges": "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/...",
-    "live": "https://..."
-  },
-  {
-    "id": "tadas",
-    "title": "Tadas",
-    "overview": "A weather application built with Angular and TypeScript that fetches real-time weather data from an external API.",
-    "description": "",
-    "features": [
-      "City-based weather search", 
-      "API data handling and error states", 
-      "Responsive layout"
+    "challenges": [
+      "Managing asynchronous weather data payloads and handling UI loading or error states smoothly during API latency drops."
     ],
-    "tech": [
-      { "name": "Angular", "icon": "images/svgs/angular-svgrepo-com.svg" },
-      { "name": "TypeScript", "icon": "images/svgs/typescript-official-svgrepo-com.svg" },
-      { "name": "Java", "icon": "images/svgs/java-svgrepo-com.svg"}
-    ],
-    "challenges":
-      "Handling asynchronous API calls and managing application state in Angular.",
-    "github": "https://github.com/...",
-    "live": "https://..."
+    "github": "https://github.com/beso525/HorizonAngular",
+    "live": "https://horizon-weatherapp.netlify.app/"
   }
 ]
