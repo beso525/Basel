@@ -2,6 +2,8 @@
   {
     "id": "lms-cli",
     "title": "Library Management System",
+    "year": "2024",
+    "status": "shipped",
     "pic": "images/proj-images/LMS.png",
     "overview": "A terminal based library management system built with Java.",
     "description": "A pure Java backend app emphasizing OOP principles, encapsulation, and Java Collections to handle CRUD database logic.",

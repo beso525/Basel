@@ -7,21 +7,21 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <a class="top-btn" href="#header">↑</a>
     <header id="header">
-      <h1>
-        <a href="/" class="dest">
-          <img src="images/favicon.png" alt="Logo" style="height: 1.7rem; width: 1.7rem; margin-right: 1rem;">
-          Basel Elkhalifa
-        </a>
-      </h1>
-      <nav>
-      <button class="menu-toggle" aria-label="Open Menu">☰</button> 
+      <a href="/" class="logo">
+        <img src="images/favicon.png" alt="Logo" >
+        Basel Elkhalifa
+      </a>
+      <nav aria-label="Primary">
+        <button class="menu-toggle" aria-expanded="false" aria-label="Open Menu">☰</button> 
         <ul class="menu-links">
-          <li><a href="#about" class="dest">About</a></li>
-          <li><a href="#projects" class="dest">Projects</a></li>
-          <li><a href="#skills" class="dest">Skills</a></li>
-          <li><a href="#contact" class="dest">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
-            <i class="fa-solid fa-moon dest" id="moon"></i>
+            <button id="theme-toggle" aria-label="Toggle dark or light mode">
+              <i class="fa-solid fa-moon" aria-hidden="true" id="moon"></i>
+            </button>
           </li>
         </ul>
       </nav>

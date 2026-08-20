@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title id="nav-title">Project Details</title>
+    <title id="nav-title">Project Details - Basel Elkhalifa</title>
     <link rel="stylesheet" href="portfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -23,33 +24,45 @@
   <body>
     <header-component></header-component>
     <main id="project-detail">
-      <section class="project-landing">
-        <div class="landing-text">
-          <h1 id="project-title"></h1>
-          <p id="project-desc"></p>
+      <div class="wrap">
+        <a href="index.html#projects" class="back-link">&larr; Back to projects</a>
+        
+        <div id="project-content" hidden>
+          <section class="project-landing">
+            <div class="landing-text">
+              <div class="card-meta" id="project-meta"></div>
+              <h1 id="project-title"></h1>
+              <p id="project-desc"></p>
+              <div id="project-tech"></div>
+              <div class="project-links">
+                <a id="github-link" target="_blank">
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>GitHub
+                </a>
+                <a id="demo-link" target="_blank">
+                  <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Live Demo
+                </a>
+              </div>
+            </div>
+            <div class="projectImg">
+              <img src="" alt="" id="project-image" />
+            </div>
+          </section>
+          
+          <section class="key-features">
+            <h2>Key Features</h2>
+            <ol id="project-features"></ol>
+          </section>
+          
+          <section class="chal-sol">
+            <h2>Challenges</h2>
+            <p id="project-challenges"></p>
+          </section>
         </div>
-        <div class="project-links">
-          <a id="github-link" target="_blank">GitHub</a>
-          <a id="demo-link" target="_blank">Live Demo</a>
-        </div>
-        <div class="projectImg">
-          <img src="" alt="" id="project-image" />
-        </div>
-      </section>
 
-      <section class="key-features">
-        <h2>Key Features</h2>
-        <ol id="project-features"></ol>
-      </section>
-
-      <section class="chal-sol">
-        <h2>Challenges</h2>
-        <p id="project-challenges"></p>
-      </section>
-      <section class="tech-stack">
-        <h2>Tech Stack</h2>
-        <p id="project-tech"></p>
-      </section>
+        <div id="project-not-found" class="not-found" hidden>
+          <p>Couldn't find project.</br><a href="index.html#projects">&larr; Back to projects</a></p>
+        </div>
+      </div>
     </main>
     <footer-component></footer-component>
 

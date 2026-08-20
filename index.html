@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basel Elkhalifa</title>
-
+    <title>Basel Elkhalifa - Software Engineer</title>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="portfolio.css" />
-
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" href="/images/favicon.png" type="images/x-icon">
@@ -23,153 +23,185 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="components/header.js" defer></script>
+    <script src="components/footer.js" defer></script>
   </head>
   <body>
     <header-component></header-component>
     <main>
-      <!-- landing page with call to action -->
+      <!-- landing page -->
       <section class="home" id="home">
-        <h1>
-          Hey! I'm Basel. <br />
-          Software Engineer
-        </h1>
-        <p>
-        I build scalable backend architectures and performant web applications with Java Spring Boot and Angular.
-        Currently building a full-stack chess engine.
-        </p>
-        <div class="btn-wrapper">
-          <a href="#projects" class="calltoact">Projects</a>
-          <a href="#contact" class="calltoact">Contact</a>
+        <div class="wrap">
+          <div class="home-inner">
+            <h1>Hey! I'm Basel. <br />Software <span class="accent">Engineer</span></h1>
+            <p class="tagline">
+              I build scalable backend architectures and performant web applications with Java Spring Boot and Angular.
+            </p>
+            <span class="status-pill">
+              <span class="status-dot" aria-hidden="true"></span>
+              currently building: a full-stack chess engine
+            </span>
+            <div class="btn-wrapper">
+              <a href="#projects" class="calltoact primary">See my work</a>
+              <a href="#contact" class="calltoact secondary">Get in touch</a>
+            </div>
+          </div>
         </div>
       </section>
-
+      
       <!-- About section -->
       <section class="about" id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-          <div class="about-image">
-            <img src="images/pic.jpg" alt="" class="headshot" />
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">// about</span>
+            <h2>A bit about me</h2>
           </div>
-          <div class="about-entry">
-            <p>
-              I'm a software developer with a Bachelor degree in Computer Science
-              and Business Administration from Saint Mary’s University.
-            </p>
-            <p>
-              I am passionate about building clean, functional web applications from UI to client-side logic. I enjoy learning and understanding
-              how every part of a system works together. Currently I'm deepening my understanding in DSA to write more 
-              efficient code. My goal is to master these computational foundations in Java to build and scale complex AI and ML models.
-            </p>
+          <div class="about-container reveal">
+            <img src="images/pic.jpg" alt="" class="headshot" />
+            <div class="about-entry">
+              <p>
+                I'm a software developer with a Bachelor degree in Computer Science
+                and Business Administration from Saint Mary’s University.
+              </p>
+              <p>
+                I'm passionate about building clean, functional applications from UI to client-side logic. I like learning and understanding
+                how every part of a system works together. Right now I'm deepening my understanding in data structures and algoritms to write more 
+                efficient code - the goal is to master these computational foundations in Java and eventually C++ to build and scale complex AI and ML models.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-
+      
       <!-- projects section -->
       <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <div id="project-container" class="project-container"></div>
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">// projects</span>
+            <h2>Things I've built</h2>
+            <p>A few projects to show how I think about architecture, data, and UX and showcase interesting projects.</p>
+          </div>
+        
+        <div id="project-container" class="project-container" aria-live="polite"></div>
       </section>
-
+      
       <!-- skills section -->
       <section class="skills-section" id="skills-section">
-        <h2>Tech Stack</h2>
-        <div class="skills">
-          <div class="skill">
-            <h3>Frontend</h3>
-            <div class="skills-container">
-              <div class="skill-card">
-                <img src="images/svgs/html5.svg" alt="" />
-                <p>HTML</p>
-              </div>
-              <div class="skill-card">
-                <img src="images/svgs/css3.svg" alt="" />
-                <p>CSS</p>
-              </div>
-              <div class="skill-card">
-                <img src="images/svgs/javascript.svg" alt="" />
-                <p>JavaScript</p>
-              </div>
-            </div>
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">// stack</span>
+            <h2>Tech Stack</h2>
           </div>
-          <div class="skill">
-            <h3>Backend</h3>
-            <div class="skills-container">
-              <div class="skill-card">
-                <img src="images/svgs/python.svg" alt="" />
-                <p>Python</p>
+          <div class="skills reveal">
+            <div class="skill">
+              <h3>Frontend</h3>
+              <div class="skills-container">
+                <div class="skill-card">
+                  <img src="images/svgs/html5.svg" alt="" />
+                  <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                  <img src="images/svgs/css3.svg" alt="" />
+                  <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                  <img src="images/svgs/javascript.svg" alt="" />
+                  <p>JavaScript</p>
+                </div>
               </div>
-              <div class="skill-card">
-                <img src="images/svgs/java.svg" alt="" />
-                <p>Java</p>
-              </div>
-              <div class="skill-card">
-                <img src="images/svgs/nodejs.svg" alt="" />
-                <p>Node.js</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="skill">
-            <h3>Databases</h3>
-            <div class="skills-container">
-              <div class="skill-card">
-                <img src="images/svgs/mongodb.svg" alt="" />
-                <p>MongoDB</p>
-              </div>
-              <div class="skill-card">
-                <img src="images/svgs/mysql.svg" alt="" />
-                <p>MySQL</p>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <h3>Frameworks</h3>
-            <div class="skills-container">
-              <div class="skill-card">
-                <img src="images/svgs/angular.svg" alt="" />
-                <p>Angular</p>
-              </div>
-              <div class="skill-card">
-                <img src="images/svgs/react.svg" alt="" />
-                <p>React</p>
-              </div>
-              <div class="skill-card">
-                <img src="images/svgs/express.svg" alt="" />
-                <p>Express</p>
+              <div class="framework">
+                <h3>Frameworks</h3>
+                <div class="skills-container">
+                  <div class="skill-card">
+                    <img src="images/svgs/angular.svg" alt="" />
+                    <p>Angular</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/svgs/react.svg" alt="" />
+                    <p>React</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="skill">
+              <h3>Backend</h3>
+              <div class="skills-container">
+                <div class="skill-card">
+                  <img src="images/svgs/python.svg" alt="" />
+                  <p>Python</p>
+                </div>
+                <div class="skill-card">
+                  <img src="images/svgs/java.svg" alt="" />
+                  <p>Java</p>
+                </div>
+                <div class="skill-card">
+                  <img src="images/svgs/nodejs.svg" alt="" />
+                  <p>Node.js</p>
+                </div>
+              </div>
+
+              <div class="framework">
+                <h3>Frameworks</h3>
+                <div class="skills-container">
+                  <div class="skill-card">
+                    <img src="images/svgs/springboot.svg" alt="" />
+                    <p>Spring Boot</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/svgs/express.svg" alt="" />
+                    <p>Express</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="skill">
+              <h3>Databases</h3>
+              <div class="skills-container">
+                <div class="skill-card">
+                  <img src="images/svgs/mongodb.svg" alt="" />
+                  <p>MongoDB</p>
+                </div>
+                <div class="skill-card">
+                  <img src="images/svgs/mysql.svg" alt="" />
+                  <p>MySQL</p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
+        
       </section>
-
+      
       <!-- education section -->
       <section class="education" id="education">
-        <h2>Education</h2>
-
-        <div class="edu-entry">
-          <div class="edu-logo">
-            <img src="images/smu-logo.png" alt="" />
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">// education</span>
+            <h2>Education</h2>
           </div>
-          <div class="edu-details">
-            <h3>
-              Bachelor of Science <br>
-              Computer Science and Business Administration
-            </h3>
-            <p class="school">Saint Mary's University, Halifax, NS</p>
-            <img src="" alt="" class="school-logo" />
-
-            <h4 class="coursework-header">Relevant coursework</h4>
-            <ol class="coursework">
-              <li>Software Engineering</li>
-              <li>Data Structures and Algorithms</li>
-              <li>Advanced Web Programming</li>
-            </ol>
+          <div class="edu-entry reveal">
+            <div class="edu-logo">
+              <img src="images/smu-logo.png" alt="" />
+            </div>
+            <div class="edu-details">
+              <h3>Bachelor of Science <br>Computer Science and Business Administration</h3>
+              <p class="school">Saint Mary's University, Halifax, NS</p>
+              <img src="" alt="" class="school-logo" />
+              
+              <h4 class="coursework-header">Relevant coursework</h4>
+              <ul class="coursework">
+                <li>Software Engineering</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Advanced Web Programming</li>
+              </ul>
+            </div>
           </div>
         </div>
+      </div>
       </section>
-
     </main>
     <footer-component></footer-component>
     <script src="js/portfolio.js"></script>
