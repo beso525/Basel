@@ -5,7 +5,7 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <a class="top-btn" href="#header">↑</a>
+      <a class="top-btn" href="#">↑</a>
     <header id="header">
       <a href="/" class="logo">
         <img src="images/favicon.png" alt="Logo" >

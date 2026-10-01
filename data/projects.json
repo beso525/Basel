@@ -27,6 +27,8 @@
   {
     "id": "whisk",
     "title": "Whisk",
+    "year": "2025",
+    "status": "shipped",
     "pic": "images/proj-images/whisk-bakery.png",
     "overview": "A secure full-stack ecommerce engine utilizing JWT authentication systems, persistent MongoDB, and a simulated PayPal checkout.",
     "description": "A secure full-stack ecommerce engine utilizing JWT authentication systems, persistent MongoDB, and a simulated PayPal checkout. (Please allow a few seconds for the netlify server to load)",
@@ -63,6 +65,8 @@
   {
     "id": "weather-app",
     "title": "Horizon",
+    "year": "2025",
+    "status": "shipped",
     "pic": "images/proj-images/horizon-weather.png",
     "overview": "An asynchronous TypeScript and Angular engine designed to efficiently parse, structure, and render payload streams from OpenWeather RESTful API.",
     "description": "An asynchronous TypeScript and Angular engine designed to efficiently parse, structure, and render payload streams from OpenWeather RESTful API.",
