@@ -448,6 +448,7 @@ nav {
 }
 
 .status-tag {
+  color: var(--color-accent-2);
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
   border: 1px solid var(--color-border);
@@ -557,16 +558,37 @@ nav {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 1.5rem;
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+
+  -webkit-mask-image: linear-gradient(90deg, transparent, #fff 10%, #fff 90%, transparent);
 }
 
-.skill h3 {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--color-text-dim);
-  margin-bottom: 1.1rem;
+.skill div {
+  white-space: nowrap;
+  animation: animate 12s linear infinite;
+}
+
+.skill div span {
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .skills-container {
@@ -591,16 +613,9 @@ nav {
 }
 
 .skill-card:hover {
-  transform: translateY(-2px);
+  cursor: pointer;
+  transform: translateY(-4px);
   color: var(--color-text);
-}
-
-.framework {
-  background: var(--color-surface);
-  border: 1px dotted var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 0.75rem;
-  margin-top: 1rem;
 }
 
 /* Education */
