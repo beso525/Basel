@@ -1,5 +1,40 @@
 [
   {
+    "id": "chess",
+    "title": "Chatarung",
+    "year": "2026",
+    "status": "in-progress",
+    "pic": "images/proj-images/chess.png",
+    "overview": "A full-stack chess engine with full move validation, piece logic, and special rules. Currently in the process of creating the chess engine",
+    "description": "Full-stack chess engine built in Spring Boot and Angular with board, state, piece movement logic and validation, and special rules. Used DSA, OOP, and SOLID principles to build. Currently building the chess engine to have deep analysis and a chess bot to play against, as well as building a multiplayer feature.",
+    "features": [
+      "Piece movement generation and validation ",
+      "Piece capture logic",
+      "Special rules implementation such as en passant, castling, and pawn promotion",
+      "Notations generated after each move for move history and will add an undo button"
+    ],
+    "tech": [
+      {
+        "name": "Spring Boot",
+        "icon": "images/svgs/springboot.svg"
+      },
+      {
+        "name": "Angular",
+        "icon": "images/svgs/angular.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "images/svgs/typescript.svg"
+      }
+    ],
+    "challenges": [
+      "Creating pawn promotion dialog to pop up and maintaining proper turn state",
+      "Enforcing En Passant rule to only be available for that specific turn in that situation",
+      "Avoiding a circular dependency between Move Generation and Check Generation"
+    ],
+    "github": "https://github.com/beso525/chess"
+  },
+  {
     "id": "lms-cli",
     "title": "Library Management System",
     "year": "2024",
