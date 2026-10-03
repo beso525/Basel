@@ -35,31 +35,6 @@
     "github": "https://github.com/beso525/chess"
   },
   {
-    "id": "lms-cli",
-    "title": "Library Management System",
-    "year": "2024",
-    "status": "shipped",
-    "pic": "images/proj-images/LMS.png",
-    "overview": "A terminal based library management system built with Java.",
-    "description": "A pure Java backend app emphasizing OOP principles, encapsulation, and Java Collections to handle CRUD database logic.",
-    "features": [
-      "Dynamic CRUD operations for books and borrowers data profiles",
-      "Query searching mechanisms to filter find available books",
-      "State tracking logic to manage borrowing and return transactions",
-      "Interactive command line control flow utilizing structured switch navigation modules"
-    ],
-    "tech": [
-      {
-        "name": "Java",
-        "icon": "images/svgs/java.svg"
-      }
-    ],
-    "challenges": [
-      "Designing an in-memory data pipeline using efficient Java Collections structures to maintain runtime data integrity without a relational database."
-    ],
-    "github": "https://github.com/beso525/LMS"
-  },
-  {
     "id": "whisk",
     "title": "Whisk",
     "year": "2025",
@@ -126,5 +101,30 @@
     ],
     "github": "https://github.com/beso525/HorizonAngular",
     "live": "https://horizon-weatherapp.netlify.app/"
+  },
+  {
+    "id": "lms-cli",
+    "title": "Library Management System",
+    "year": "2024",
+    "status": "shipped",
+    "pic": "images/proj-images/LMS.png",
+    "overview": "A terminal based library management system built with Java.",
+    "description": "A pure Java backend app emphasizing OOP principles, encapsulation, and Java Collections to handle CRUD database logic.",
+    "features": [
+      "Dynamic CRUD operations for books and borrowers data profiles",
+      "Query searching mechanisms to filter find available books",
+      "State tracking logic to manage borrowing and return transactions",
+      "Interactive command line control flow utilizing structured switch navigation modules"
+    ],
+    "tech": [
+      {
+        "name": "Java",
+        "icon": "images/svgs/java.svg"
+      }
+    ],
+    "challenges": [
+      "Designing an in-memory data pipeline using efficient Java Collections structures to maintain runtime data integrity without a relational database."
+    ],
+    "github": "https://github.com/beso525/LMS"
   }
 ]
