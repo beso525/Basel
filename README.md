@@ -1,19 +1,4 @@
-# Portfolio
+# Personal Portfolio
+## Contains all my past projects + current project I'm working on
 
-JSON format for filling out new project:
-,
-{
-"id": "",
-"title": "",
-"overview": "",
-"description": "",
-"features": ["", "", ""],
-"tech": [
-{ "name": "", "icon": "" },
-{ "name": "", "icon": "" }
-],
-"challenges":
-"",
-"github": "",
-"live": ""
-}
+(https://basel-elkhalifa.vercel.app)
